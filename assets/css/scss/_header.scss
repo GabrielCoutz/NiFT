@@ -1,0 +1,11 @@
+.header {
+  .navbar-brand {
+    font-family: $font-display;
+  }
+  a {
+    color: $white;
+    &:hover {
+      color: $white;
+    }
+  }
+}
