@@ -17,12 +17,40 @@ get_header(); ?>
 			<h1>Dos <span class="detalhe">maiores</span> criadores</h1>
 		</section>
 
-
 		<main class="container produtos">
-			<pre>
-				<?= print_r( format_products( $data['products'] ) ); ?>
-			</pre>
+			<ul class="cards list-unstyled row g-5">
+				<?= cards( $data['products'] ); ?>
+			</ul>
 		</main>
+
+		<section class="container numeros">
+			<div class="row g-5">
+				<div class="col text-center">
+					<h3 class="display-4">+ 42</h3>
+					<span class="fs-5">Criadores</span>
+				</div>
+				<div class="col text-center">
+					<h3 class="display-4">1.300</h3>
+					<span class="fs-5">Artes</span>
+				</div>
+				<div class="col text-center">
+					<h3 class="display-4">+ 17k</h3>
+					<span class="fs-5">Vendas</span>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="bg-white">
+			<div class="captacao text-center container">
+				<h3 class="display-3 mb-5">
+					Comece a explorar
+					<br>
+					É grátis!
+				</h3>
+				<a href="/minha-conta" class="btn">Criar conta</a>
+			</div>
+		</section>
 
 
 	<?php }

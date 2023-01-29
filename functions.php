@@ -22,5 +22,32 @@ function format_products( $products, $img_size = 'woocommerce_thumbnail' ) {
 	return $newProducts;
 }
 
+function cards( $productsArray ) {
+	$products = format_products( $productsArray );
+	foreach ( $products as $product ) { ?>
+		<li class="col-md-3 col">
+			<div class="card text-white">
+				<a href="<?= $product['link']; ?>">
+					<div class="image">
+						<img src="<?= $product['img']; ?>" alt="<?= $product['name']; ?>">
+					</div>
+					<h1 class="title h4 my-3">
+						<?= $product['name']; ?>
+					</h1>
+					<div class="info row">
+						<span class="author col fs-5">
+							@
+							<?= $product['author']; ?>
+						</span>
+						<span class="price col fs-5 text-end">
+							<?= $product['price']; ?>
+						</span>
+					</div>
+			</div>
+			</a>
+		</li>
+	<?php }
+}
+
 
 ?>

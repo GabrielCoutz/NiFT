@@ -1,0 +1,19 @@
+.cards {
+  padding: 6rem 0;
+  border-top: 2px solid $primary-color;
+  border-bottom: 2px solid $primary-color;
+  .card {
+    .title {
+      color: $white;
+    }
+
+    .info {
+      .author {
+        color: $c1;
+      }
+      .price {
+        color: $green;
+      }
+    }
+  }
+}
