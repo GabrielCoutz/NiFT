@@ -1,17 +1,22 @@
-.cards {
+.home .cards {
   padding: 6rem 0;
   border-top: 2px solid $primary-color;
   border-bottom: 2px solid $primary-color;
+}
+
+.cards {
   .card {
     .title {
       color: $white;
     }
 
     .info {
+      display: flex;
+      justify-content: space-between;
       .author {
         color: $c1;
       }
-      .price {
+      .amount {
         color: $green;
       }
     }

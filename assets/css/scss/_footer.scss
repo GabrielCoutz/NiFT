@@ -1,14 +1,16 @@
-.footer {
-  padding-top: 2rem;
+.wrapperFooter {
+  border-top: 1px solid $primary-color;
+  margin-top: 3rem;
+  .footer {
+    padding-top: 2rem;
 
-  .btn {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto 4rem auto;
-    color: $white;
-  }
+    .btn {
+      width: fit-content;
+      margin: 0 auto 4rem auto;
+    }
 
-  .copy {
-    color: $c1;
+    .copy {
+      color: $c1;
+    }
   }
 }

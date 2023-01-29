@@ -9,11 +9,36 @@ body {
   font-family: $font-text;
 }
 
-.btn {
+select,
+.btn.dropdown-toggle {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 94%;
+  background-position-y: 8px;
+  background-size: 1.8rem;
+}
+
+.btn.dropdown-toggle::after {
+  display: none;
+}
+
+.btn,
+.woocommerce-ordering select {
   text-align: center;
   font-weight: 500;
   border-radius: $border-radius;
   padding: 12px 24px !important;
-  padding-left: 24px;
-  background-color: $primary-color;
+
+  &-primary {
+    background-color: $primary-color;
+    color: $white;
+  }
+  &-secondary {
+    border: 2px solid $primary-color;
+    color: $black;
+    background-color: $white;
+  }
 }

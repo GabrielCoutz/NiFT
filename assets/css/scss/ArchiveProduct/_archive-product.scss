@@ -1,0 +1,64 @@
+.archive {
+  .filtros {
+    border-top: 2px solid $primary-color;
+    border-bottom: 2px solid $primary-color;
+    padding: 2rem 0;
+  }
+
+  @include media-breakpoint-down(md) {
+    .dropdown .btn,
+    .woocommerce-ordering {
+      width: 100%;
+    }
+
+    form.woocommerce-ordering select {
+      max-width: 100%;
+      margin-top: 3rem;
+    }
+  }
+
+  .dropdown .btn {
+    padding-right: 4rem !important;
+  }
+
+  .dropdown .btn,
+  .woocommerce-ordering select {
+    background-color: transparent;
+    text-align: start;
+    color: $white;
+    border: 1px solid $white;
+
+    option {
+      color: $black;
+    }
+  }
+
+  .woocommerce-ordering select {
+    font-weight: 500;
+    max-width: 250px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    .btn::after {
+      position: relative;
+      transform: scale(1.5);
+      top: 1px;
+    }
+
+    li + li {
+      border-top: 1px solid rgb(233, 233, 233);
+    }
+
+    a {
+      padding: 0.5rem 1rem;
+    }
+  }
+  .cards {
+    padding: 3rem 0;
+  }
+  header {
+    margin-bottom: 5rem;
+  }
+}

@@ -27,7 +27,7 @@
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav justify-content-end w-100">
 						<li class="nav-item">
-							<a class="nav-link fs-5 btn" href="/minha-conta">Login</a>
+							<a class="nav-link fs-5 btn btn-primary" href="/minha-conta">Login</a>
 						</li>
 					</ul>
 				</div>

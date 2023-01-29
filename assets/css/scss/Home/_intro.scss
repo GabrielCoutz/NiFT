@@ -2,6 +2,10 @@
   text-align: center;
   margin: 10rem auto;
 
+  @include media-breakpoint-down(lg) {
+    margin: 6rem auto;
+  }
+
   h1 {
     @include title-text;
     .detalhe {

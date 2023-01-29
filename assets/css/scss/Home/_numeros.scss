@@ -1,5 +1,8 @@
 .numeros {
   margin: 9rem auto;
+  @include media-breakpoint-down(sm) {
+    margin: 3rem auto;
+  }
   h3 {
     font-weight: 500;
   }
