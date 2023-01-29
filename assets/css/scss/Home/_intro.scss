@@ -1,0 +1,14 @@
+.intro {
+  text-align: center;
+  margin: 10rem auto;
+
+  h1 {
+    @include title-text;
+    .detalhe {
+      color: $primary-color;
+    }
+    &:nth-child(1) {
+      margin-bottom: -20px;
+    }
+  }
+}

@@ -9,7 +9,7 @@ const uglify = require("gulp-uglify-es").default;
 
 function compilaSass(cb) {
   gulp
-    .src("assets/css/scss/*.scss")
+    .src("assets/css/scss/**/*.scss")
     .pipe(sass({ outputStyle: "compressed" }))
     .on("error", showError)
     .pipe(
@@ -35,7 +35,7 @@ function showError(error) {
 }
 
 function watch() {
-  gulp.watch("assets/css/scss/*.scss", gulp.series("compilaSass"));
+  gulp.watch("assets/css/scss/**/*.scss", gulp.series("compilaSass"));
   // gulp.watch(["js/main/*.js"], gulpJs);
   gulp
     .watch(["*.php", "./**/*.php", "js/*.js"])
