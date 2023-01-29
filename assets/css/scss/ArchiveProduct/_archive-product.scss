@@ -61,4 +61,24 @@
   header {
     margin-bottom: 5rem;
   }
+
+  .pagination {
+    .nav-links {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .page-numbers {
+      font-size: 1.4rem;
+      color: $white;
+      padding: 0.5rem 1.5rem;
+      border: 1px solid $white;
+      border-radius: $border-radius;
+    }
+
+    .current {
+      background-color: $white;
+      color: $black;
+    }
+  }
 }

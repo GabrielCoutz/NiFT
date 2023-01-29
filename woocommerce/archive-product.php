@@ -34,6 +34,7 @@ if ( have_posts() ) {
 		<ul class="cards list-unstyled row g-4">
 			<?= cards( $products ); ?>
 		</ul>
+		<?= get_the_posts_pagination( [ 'mid_size' => 2, 'prev_next' => false ] ) ?>
 	</main>
 
 
