@@ -1,0 +1,37 @@
+.woocommerce {
+  .woocommerce-message,
+  .woocommerce-info {
+    background-color: transparent;
+    border-radius: $border-radius;
+    border: 2px solid transparent;
+    text-align: center;
+    color: $white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 0.5rem;
+    font-weight: 500;
+
+    &::before {
+      order: 1;
+      position: initial;
+    }
+
+    .button {
+      display: none;
+    }
+
+    .restore-item {
+      color: $blue;
+      order: -1;
+    }
+  }
+  .woocommerce-message {
+    border-color: $green;
+  }
+  .woocommerce-info {
+    border-color: $blue;
+  }
+}

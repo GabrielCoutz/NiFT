@@ -1,0 +1,46 @@
+.woocommerce {
+  .woocommerce-cart-form,
+  .cart_totals {
+    background-color: $white;
+    color: $black;
+    border-radius: $border-radius;
+    margin: 2rem auto;
+  }
+
+  .woocommerce-cart-form {
+    padding: 0.5rem 2rem;
+
+    .button {
+      display: none;
+    }
+
+    .shop_table,
+    .input-text.qty.text {
+      border: none;
+    }
+
+    .remove {
+      transition: 0.3s all;
+    }
+  }
+
+  .cart_totals {
+    padding: 2rem;
+
+    h2 {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .checkout-button.button {
+      background-color: $primary-color;
+      color: $white;
+      margin-top: 1rem;
+
+      &:hover {
+        background-color: $primary-color;
+      }
+    }
+  }
+}

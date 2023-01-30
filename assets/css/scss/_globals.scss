@@ -27,7 +27,8 @@ select,
 
 .btn,
 .woocommerce-ordering select,
-button.button.single_add_to_cart_button {
+button.button.single_add_to_cart_button,
+.checkout-button.button.wp-element-button {
   text-align: center;
   font-weight: 500;
   border-radius: $border-radius;

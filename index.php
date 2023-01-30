@@ -5,7 +5,7 @@
 		the_post(); ?>
 		<main class='container container-index'>
 			<?php the_content(); ?>
-			teste
+
 		</main>
 	<?php }
 } ?>
