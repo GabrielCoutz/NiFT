@@ -1,6 +1,8 @@
 .woocommerce {
   .woocommerce-message,
-  .woocommerce-info {
+  .woocommerce-info,
+  .woocommerce-error,
+  .woocommerce-thankyou-order-received {
     background-color: transparent;
     border-radius: $border-radius;
     border: 2px solid transparent;
@@ -28,10 +30,21 @@
       order: -1;
     }
   }
-  .woocommerce-message {
+
+  .woocommerce-thankyou-order-received {
+    padding: 1rem;
+  }
+  
+  .woocommerce-message,
+  .woocommerce-thankyou-order-received {
     border-color: $green;
   }
   .woocommerce-info {
     border-color: $blue;
+  }
+
+  .woocommerce-error {
+    border-color: $red;
+    justify-content: start;
   }
 }

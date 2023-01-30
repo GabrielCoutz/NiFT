@@ -2,3 +2,10 @@
   font-size: $h1-font-size;
   font-weight: 600;
 }
+
+@mixin box() {
+  background-color: $white;
+  color: $black;
+  padding: 1rem 2rem;
+  border-radius: $border-radius;
+}

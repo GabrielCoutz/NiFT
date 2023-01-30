@@ -21,6 +21,34 @@ select,
   background-size: 1.8rem;
 }
 
+select option,
+.select2-results__option {
+  color: $black;
+}
+
+input,
+textarea {
+  height: 1.8rem;
+  padding: 0.6rem;
+  border: 1px solid !important;
+  border-color: #898989 !important;
+  border-radius: 4px;
+  transition: 0.3s all;
+
+  &:focus,
+  &:hover {
+    border-color: $primary-color !important;
+  }
+}
+
+.woocommerce form .form-row.woocommerce-invalid input.input-text {
+  border-color: #dc3545 !important;
+}
+
+.woocommerce form .form-row.woocommerce-validated input.input-text {
+  border-color: $green !important;
+}
+
 .btn.dropdown-toggle::after {
   display: none;
 }
@@ -28,7 +56,9 @@ select,
 .btn,
 .woocommerce-ordering select,
 button.button.single_add_to_cart_button,
-.checkout-button.button.wp-element-button {
+.checkout-button.button.wp-element-button,
+.woocommerce #payment #place_order,
+.woocommerce-page #payment #place_order {
   text-align: center;
   font-weight: 500;
   border-radius: $border-radius;

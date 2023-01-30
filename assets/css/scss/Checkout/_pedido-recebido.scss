@@ -1,0 +1,17 @@
+.woocommerce {
+  .woocommerce-order-overview,
+  table.shop_table.woocommerce-table--order-details {
+    @include box();
+  }
+  .woocommerce-order-overview {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    & ~ p {
+      display: none;
+    }
+  }
+}
