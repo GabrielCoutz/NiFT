@@ -41,7 +41,7 @@ get_header(); ?>
 		</section>
 
 
-		<section class="bg-white">
+		<section class="bg-white wrapperCaptacao">
 			<div class="captacao text-center container">
 				<h3 class="display-3 mb-5">
 					Comece a explorar

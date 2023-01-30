@@ -7,6 +7,11 @@ body {
   background-color: $black;
   color: $white;
   font-family: $font-text;
+  &.home {
+    background-image: url(assets/img/fundo.png);
+    background-size: cover;
+    background-attachment: fixed;
+  }
 }
 
 select,

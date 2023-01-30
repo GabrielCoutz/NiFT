@@ -1,5 +1,12 @@
+.wrapperCaptacao{
+  background-image: url(assets/img/fundo-numeros.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .captacao {
   padding: 20rem 0;
+
   @include media-breakpoint-down(lg) {
     padding: 10rem 0;
   }

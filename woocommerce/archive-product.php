@@ -11,6 +11,9 @@ if ( have_posts() ) {
 } ?>
 
 
+<h5 class="display-5 text-center container page-title">Explore</h5>
+
+
 <?php if ( ! empty( $products ) ) { ?>
 	<div class="container row filtros align-items-md-center">
 		<div class="col-md col-12">
