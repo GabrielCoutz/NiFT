@@ -12,6 +12,10 @@
 	<link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style.css">
 </head>
 
+<?php
+$username = strtok( wp_get_current_user()->display_name, " " );
+?>
+
 <body <?= body_class(); ?>>
 
 	<header class="container header">
@@ -25,9 +29,14 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav justify-content-end w-100">
+					<ul class="navbar-nav justify-content-end align-items-center w-100">
+						<li class="nav-item me-5 mb-4 mb-md-0 loja">
+							<a href="/loja" class="p-3 fs-5">Loja</a>
+						</li>
 						<li class="nav-item">
-							<a class="nav-link fs-5 btn btn-primary" href="/minha-conta">Login</a>
+							<a class="nav-link fs-5 btn btn-primary" href="/minha-conta">
+								<?= empty( $username ) ? "Login" : $username ?>
+							</a>
 						</li>
 					</ul>
 				</div>

@@ -1,0 +1,41 @@
+@import "lost-password";
+
+.woocommerce {
+  h2 {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  .woocommerce-form-login,
+  .woocommerce-form-register {
+    @include box();
+    max-width: 500px;
+    margin: 0 auto !important;
+
+    .woocommerce-form-login__rememberme {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      cursor: pointer;
+      margin-bottom: 1rem;
+    }
+
+    .woocommerce-form-login__submit,
+    .woocommerce-form-register__submit {
+      background-color: $primary-color;
+      color: $white;
+
+      &:hover {
+        background-color: $primary-color;
+        color: $white;
+      }
+    }
+
+    .lost_password,
+    .woocommerce-privacy-policy-text {
+      a {
+        color: $blue;
+        text-decoration: underline;
+      }
+    }
+  }
+}
