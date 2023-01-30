@@ -26,7 +26,8 @@ select,
 }
 
 .btn,
-.woocommerce-ordering select {
+.woocommerce-ordering select,
+button.button.single_add_to_cart_button {
   text-align: center;
   font-weight: 500;
   border-radius: $border-radius;

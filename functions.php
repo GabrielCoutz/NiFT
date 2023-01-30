@@ -48,7 +48,7 @@ function cards( $productsArray ) {
 }
 
 function nift_loop_shop_per_page() {
-	return 4;
+	return 12;
 }
 
 add_filter( 'loop_shop_per_page', 'nift_loop_shop_per_page' );
