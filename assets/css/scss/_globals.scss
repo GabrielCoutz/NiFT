@@ -46,6 +46,14 @@ textarea {
     border-color: $primary-color !important;
   }
 }
+.select2-selection.select2-selection--single {
+  border: none;
+  border-radius: 4px;
+}
+.select2-selection__rendered {
+  background-color: $c0;
+  border-radius: 4px;
+}
 
 .woocommerce form .form-row.woocommerce-invalid input.input-text {
   border-color: #dc3545 !important;

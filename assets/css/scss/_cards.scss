@@ -20,5 +20,12 @@
         color: $green;
       }
     }
+
+    @include media-breakpoint-down(md) {
+      .author,
+      .amount {
+        font-size: 1rem;
+      }
+    }
   }
 }
