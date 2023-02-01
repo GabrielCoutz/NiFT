@@ -16,8 +16,7 @@ Para desenvolvê-lo, foram utilizados:
 
 Todos os dados mostrados na UI vêm do Wordpress com WooCommerce, nos quais são apenas placeholders.
 
-# Prints da Interface 
-# Desktop & Mobile
+# Prints da Interface | Desktop & Mobile
 
 ## Home
 ![FireShot Capture 026 - NiFT - localhost](https://user-images.githubusercontent.com/86968853/216057439-7189ab80-986c-4bb1-b39a-7fcbc5187f76.png)
