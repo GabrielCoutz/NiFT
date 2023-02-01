@@ -41,3 +41,22 @@ Todos os dados mostrados na UI vêm do Wordpress com WooCommerce, nos quais são
 
 ## Home
 ![1675176985066](https://user-images.githubusercontent.com/86968853/216058106-1659dd16-4cb4-4f3e-8d0b-ee311ae519b3.jpg)
+
+## Página de produtos
+![1675176985171](https://user-images.githubusercontent.com/86968853/216058520-82e8cec4-57f2-43b6-8a75-a7cc58cfba57.jpg)
+
+## Página do produto
+![1675176985272](https://user-images.githubusercontent.com/86968853/216058700-aa640adb-6704-4fd5-af3d-e2c252639325.jpg)
+
+## Carrinho
+![1675176984991](https://user-images.githubusercontent.com/86968853/216058758-a174fbee-b185-4dca-9674-0995496681e5.jpg)
+
+## Checkout
+![1675176984991 (1)](https://user-images.githubusercontent.com/86968853/216058800-8101a3ce-c22e-4054-91a7-535e9a44b024.jpg)
+
+## Confirmação do pedido
+![1675176984866](https://user-images.githubusercontent.com/86968853/216058868-f8a9119b-0d6f-4a5e-9103-560e98844307.jpg)
+
+
+
+
