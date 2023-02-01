@@ -16,7 +16,8 @@ Para desenvolvê-lo, foram utilizados:
 
 Todos os dados mostrados na UI vêm do Wordpress com WooCommerce, nos quais são apenas placeholders.
 
-# Prints da Interface
+# Prints da Interface 
+# Desktop & Mobile
 
 ## Home
 ![FireShot Capture 026 - NiFT - localhost](https://user-images.githubusercontent.com/86968853/216057439-7189ab80-986c-4bb1-b39a-7fcbc5187f76.png)
@@ -35,3 +36,8 @@ Todos os dados mostrados na UI vêm do Wordpress com WooCommerce, nos quais são
 
 ## Confirmação do pedido
 ![FireShot Capture 031 - NiFT - nift local](https://user-images.githubusercontent.com/86968853/216057634-9245960a-4c05-4b15-b0ad-65667f745001.png)
+
+# Mobile
+
+## Home
+![1675176985066](https://user-images.githubusercontent.com/86968853/216058106-1659dd16-4cb4-4f3e-8d0b-ee311ae519b3.jpg)
